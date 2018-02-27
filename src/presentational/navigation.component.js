@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
-import DevTools from '../DevTools';
 
 const Navigation = props => (
     <div>
@@ -22,7 +21,6 @@ const Navigation = props => (
         </nav>
         <div className="container-fluid">
             {props.children}
-            <DevTools />
         </div>
     </div>
 );
